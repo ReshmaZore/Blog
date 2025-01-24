@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
-const DB_NAME = "blog"
+
+const  Blog = "blog"
 
 const connectDB = async () => {
   try {
@@ -18,5 +19,5 @@ const connectDB = async () => {
     process.exit(1); // Exit the process if the database connection fails
   }
 }
-
+//mongodb+srv://reshmazore7104:NF3HRGamBmzjRgkR@cluster0.dadoe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 export default connectDB

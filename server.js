@@ -7,6 +7,8 @@ import connectDB from "./config/index.js";
 import userRoute from "./routes/user.routes.js";
 import postRoute from "./routes/post.routes.js";
 import commentRoute from "./routes/comment.routes.js";
+import connectDB from "./lib/ConnectDB.js";
+
 dotenv.config();//load the .env variables
 
 const app = express(); // Initialize the express app
